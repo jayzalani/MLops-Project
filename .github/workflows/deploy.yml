@@ -6,12 +6,12 @@ on:
             - main
 
 env:
-    PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+    PROJECT_ID: ${{ secrets.GCP_PROJECTID }}
     GKE_CLUSTER: "my-cluster"
     GKE_REGION: "us-central1"
     DEPLOYMENT_NAME: "mlops-app"
-    REPOSITORY: "us-central1-docker.pkg.dev/mlops-new-447207/my-repo"
-    IMAGE: "us-central1-docker.pkg.dev/mlops-new-447207/my-repo/mlops-app"
+    REPOSITORY: "us-central1-docker.pkg.dev/tensile-axiom-455919-d5/my-repo"
+    IMAGE: "us-central1-docker.pkg.dev/tensile-axiom-455919-d5/my-repo/mlops-app"
 
 jobs:
     build-and-deploy:
